@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.title {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/contact-title-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title>p {
+    font-size: 77px;
+    line-height: 87px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.coment {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coment1 {
+    width: 50%;
+    height: 90%;
+}
+
+.coment2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coment2>form {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coment2>form :nth-child(1) {
+    width: 80%;
+    height: 150px;
+    background-color: transparent;
+    border: 1px solid #828282;
+    color: #fff;
+    font-family: ' Montserrat'sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    resize: none;
+}
+
+.coment2>form :nth-child(1):focus {
+    border: 1.5px solid #ffffff;
+}
+
+.coment2>form :nth-child(2) {
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #828282;
+    color: #fff;
+    font-family: ' Montserrat'sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+}
+
+.coment2>form :nth-child(2):focus {
+    border: 1.5px solid #ffffff;
+}
+
+.coment2>form :nth-child(3) {
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #828282;
+    color: #fff;
+    font-family: ' Montserrat'sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+}
+
+.coment2>form :nth-child(3):focus {
+    border: 1.5px solid #ffffff;
+}
+
+
+.coment2>form :nth-child(4) {
+    width: 25%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+    font-family: ' Montserrat'sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+}
+
+.coment1>h2 {
+    margin-left: 15%;
+    color: #fff;
+    font-family: 'amiri', serif;
+    font-size: 58px;
+    line-height: 80px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.coment1>h5 {
+    margin-top: 100px;
+    margin-left: 15%;
+    color: #fff;
+    font-family: 'cormorant', serif;
+    font-size: 21px;
+    line-height: 31px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.coment1>p {
+    width: 65%;
+    margin-left: 15%;
+    color: #ffffff;
+    font-family: 'montserrat', serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.coment1>p>i {
+    width: 7%;
+}
+
+.coment1>:nth-child(4) {
+    margin-top: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.coment1>:nth-child(5) {
+    line-height: 40px;
+}
+
+.coment1>:nth-child(6) {
+    line-height: 40px;
+}
+
+
+@media (max-width:768px) {
+    .title {
+        height: 350px;
+    }
+
+    .title>p {
+        font-size: 30px;
+    }
+
+    .coment1 {
+        width: 100%;
+    }
+
+    .coment {
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .coment2 {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .coment2>form {
+        justify-content: center;
+    }
+
+    .coment2>form :nth-child(2) {
+        margin-top: 20px;
+    }
+
+
+    .coment2>form :nth-child(3) {
+        margin-top: 20px;
+    }
+
+
+    .coment2>form :nth-child(4) {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:425px) {
+    .coment2>form :nth-child(1) {
+        width: 100%;
+        height: 100px;
+    }
+
+
+
+    .coment2>form :nth-child(2) {
+        width: 100%;
+    }
+
+
+    .coment2>form :nth-child(3) {
+        width: 100%;
+    }
+
+    .coment1>p{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+   
+    .coment2>form :nth-child(4) {
+        width: 40%;
+    }
+}

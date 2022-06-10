@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.img {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/about-title-img.jpg);
+    background-size: cover calc(5, 50);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img>p {
+    font-size: 77px;
+    line-height: 87px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.story {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+.story1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story1>div {
+    width: 56%;
+    height: 80%;
+    background-image: url(../img/single-img-1.jpg);
+    background-size: cover;
+}
+
+.story2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.story2>div {
+    width: 100%;
+}
+
+.story2 :nth-child(1)>p {
+    color: #fff;
+    font-family: 'Cormorant', serif;
+    font-size: 21px;
+    line-height: 31px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.story2 :nth-child(2)>p {
+    color: #fff;
+    font-family: 'Amiri', serif;
+    font-size: 58px;
+    line-height: 68px;
+    font-weight: 400;
+
+}
+
+.story2 :nth-child(3) {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.story2 :nth-child(3)>p {
+    color: #ffffff;
+    font-family: 'montserrat', serif;
+    font-size: 17px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.story2 :nth-child(4) {
+    margin-top: 45px;
+}
+
+.story2 :nth-child(4)>a {
+    width: 30%;
+    height: 50px;
+    border: solid 1.5px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.story2 :nth-child(4)>a:hover {
+    background-color: #ffffff;
+    color: #828282;
+    transition: linear 200ms;
+}
+
+.video {
+    width: 100%;
+    height: 650px;
+    margin-top: 100px;
+    display: flex;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+@media (max-width: 1024px) {
+    .story {
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 150px;
+    }
+
+    .story1 {
+        width: 100%;
+        height: 830px;
+    }
+
+    .story1>div {
+        width: 82%;
+        height: 100%;
+    }
+
+    .story2 {
+        width: 100%;
+        height: 500px;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+
+    .story2>div {
+        width: 82%;
+    }
+
+    .story2 :nth-child(1)>p {
+        color: #fff;
+        font-family: 'Cormorant', serif;
+        font-size: 21px;
+        line-height: 31px;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .story2 :nth-child(2)>p {
+        color: #fff;
+        font-family: 'Amiri', serif;
+        font-size: 58px;
+        line-height: 68px;
+        font-weight: 400;
+
+    }
+
+    .story2 :nth-child(3) {
+        margin-right: 12%;
+    }
+
+    .story2 :nth-child(4)>a {
+        width: 20%;
+
+    }
+
+    .video {
+        height: auto;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    .img {
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .img {
+        height: 350px;
+        background-size: 100% 90%;
+    }
+
+    .img>p {
+        font-size: 30px;
+    }
+
+
+    .story1>div {
+        width: 90%;
+    }
+
+    .story2>div {
+        width: 70%;
+    }
+
+    .story2 :nth-child(3) {
+        margin-right: 0;
+    }
+
+    .story2 :nth-child(4)>a {
+
+        font-size: 17px;
+        font-weight: 200;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .img {
+        height: 250px;
+        background-size: 100% 70%;
+    }
+
+    .img>p {
+        font-size: 30px;
+    }
+
+    .story1 {
+        height: auto;
+    }
+
+    .story1>div {
+        width: 90%;
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .story2>div {
+        width: 90%;
+    }
+
+    .story2 :nth-child(3) {
+        width: 90%;
+       
+    }
+
+    .story2 :nth-child(4)>a {
+        width: 30%;
+        height: 40px;
+        font-size: 17px;
+        font-weight: 200;
+    }
+
+}
